@@ -8,4 +8,8 @@
         <button class="btn btn-primary" (click)="changecolor()">change</button>
     </div>
     <div *ngTemplateOutlet="coloredText"></div>
+    <paragraph [colorselected]="colorselected">
+        <h4 class="dynamicText">ng-content </h4>
+    </paragraph>
 </div>
+
